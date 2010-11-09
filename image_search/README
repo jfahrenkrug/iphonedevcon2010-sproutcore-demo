@@ -5,3 +5,26 @@ Copyright: ©2010 My Company, Inc.
 
 TODO: Describe Your Project
 
+sc-gen controller ImageSearch.imagesController SC.ArrayController
+
+in main_page.js (bindings):
+contentView: SC.ListView.design({
+        contentBinding: 'ImageSearch.imagesController.arrangedObjects',
+        selectionBinding: 'ImageSearch.imagesController.selection'
+    })
+    
+    
+in main.js:
+
+var query = SC.Query.local(ImageSearch.GoogleImage);
+  var images = ImageSearch.store.find(query);
+  ImageSearch.imagesController.set('content', images);
+  
+  
+http://frozencanuck.wordpress.com/tag/custom-list-item-view/
+sc-gen view ImageSearch.ImageThumbListItemView
+
+
+
+sc-gen controller ImageSearch.currentImageController SC.ObjectController
+mit   contentBinding: SC.Binding.single('ImageSearch.imagesController.selection'),

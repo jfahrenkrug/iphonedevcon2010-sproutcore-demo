@@ -1,0 +1,9 @@
+.sc-list-item-view.has-icon label {
+  left: 75px;
+}
+
+.sc-list-item-view img.icon {
+  max-width: 60px;
+  max-height: 60px;
+  top: 25%;
+}

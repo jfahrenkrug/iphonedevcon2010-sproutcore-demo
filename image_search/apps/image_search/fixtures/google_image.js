@@ -14,7 +14,7 @@ ImageSearch.GoogleImage.FIXTURES = [
 
   {
       "guid": 1,
-      "content": "<b>Ren</b> &amp, <b>Stimpy</b> information",
+      "content": "<b>Ren</b> &amp; <b>Stimpy</b> information",
       "contentNoFormatting": "Ren &amp; Stimpy information",
       "height": 474,
       "imageId": "WttpFfB1sW1z1M:",
