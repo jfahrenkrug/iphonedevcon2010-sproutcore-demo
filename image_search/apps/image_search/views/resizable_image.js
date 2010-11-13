@@ -42,7 +42,7 @@ ImageSearch.ResizableImageView = SC.ImageView.extend(
         var newWidth = w;
         var newHeight = h;
         
-        if (w >= f.width || h >= f.height) {
+        //if (w >= f.width || h >= f.height) {
             if (f.height >= (h * (f.width/w))) {
                 newWidth = f.width;
                 newHeight = h * (f.width/w);
@@ -50,7 +50,7 @@ ImageSearch.ResizableImageView = SC.ImageView.extend(
                 newHeight = f.height;
                 newWidth = w * (f.height/h);
             }              
-        }
+        //}
         
         if (this.get('layer')) {
             var imageStyle = this.get('layer').style;
