@@ -53,10 +53,16 @@ ImageSearch.mainPage = SC.Page.design({
             layout: {}
         }),
         //This view shows up on the right. It is a placeholder, later we will use a formview.
-        bottomRightView: SC.ImageView.design({
-            textAlign: SC.ALIGN_CENTER,
-            valueBinding: "ImageSearch.currentImageController.unescapedUrl"
-        }),
+        bottomRightView: SC.ScrollView.design({
+          layout: { left: 5, top: 36, right: 5, bottom: 32 },
+          horizontalAlign: SC.ALIGN_CENTER,
+          verticalAlign: SC.ALIGN_CENTER,
+          canScale: YES,
+          contentView: SC.ImageView.design({
+              layout: { left: 0, top: 0, right: 0, bottom: 0 },
+              valueBinding: "ImageSearch.currentImageController.unescapedUrl"
+          })
+        })
       }),
 
       bottomView: SC.ToolbarView.design({
