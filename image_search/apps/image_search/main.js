@@ -25,9 +25,12 @@ ImageSearch.main = function main() {
   // TODO: Set the content property on your primary controller
   // ex: ImageSearch.contactsController.set('content',ImageSearch.contacts);
   
-  var query = SC.Query.local(ImageSearch.GoogleImage);
+  
+  
+  var query = SC.Query.remote(ImageSearch.GoogleImage, {query: 'ren and stimpy'});
   var images = ImageSearch.store.find(query);
   ImageSearch.imagesController.set('content', images);
+  
 
 } ;
 

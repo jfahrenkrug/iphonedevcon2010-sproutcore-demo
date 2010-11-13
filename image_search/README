@@ -28,3 +28,9 @@ sc-gen view ImageSearch.ImageThumbListItemView
 
 sc-gen controller ImageSearch.currentImageController SC.ObjectController
 mit   contentBinding: SC.Binding.single('ImageSearch.imagesController.selection'),
+
+
+sc-gen data-source ImageSearch.GoogleImageDataSource
+
+add to Buildfile:
+proxy '/search', :to =>'ajax.googleapis.com'

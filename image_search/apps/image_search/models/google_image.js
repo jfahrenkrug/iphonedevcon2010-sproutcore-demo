@@ -12,7 +12,9 @@
   @version 0.1
 */
 ImageSearch.GoogleImage = SC.Record.extend(
-/** @scope ImageSearch.GoogleImage.prototype */ {   
+/** @scope ImageSearch.GoogleImage.prototype */ {
+    primaryKey: "imageId",
+      
     content: SC.Record.attr(String),
     contentNoFormatting: SC.Record.attr(String),
     height: SC.Record.attr(Number),

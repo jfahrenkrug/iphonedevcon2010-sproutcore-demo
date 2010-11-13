@@ -13,7 +13,6 @@ ImageSearch.GoogleImage.FIXTURES = [
   // the example below.
 
   {
-      "guid": 1,
       "content": "<b>Ren</b> &amp; <b>Stimpy</b> information",
       "contentNoFormatting": "Ren &amp; Stimpy information",
       "height": 474,
@@ -30,7 +29,6 @@ ImageSearch.GoogleImage.FIXTURES = [
       "width": 626,
   },  
       {
-      "guid": 2,
       "content": "<b>ren</b> and <b>stimpy</b>",
       "contentNoFormatting": "ren and stimpy",
       "height": 375,
@@ -47,7 +45,6 @@ ImageSearch.GoogleImage.FIXTURES = [
       "width": 500,
   },  
       {
-      "guid": 3,
       "content": "Even <b>Ren</b> and <b>Stimpy</b>",
       "contentNoFormatting": "Even Ren and Stimpy",
       "height": 300,
@@ -64,7 +61,6 @@ ImageSearch.GoogleImage.FIXTURES = [
       "width": 300,
   },  
       {   
-      "guid": 4, 
       "content": "<b>Ren</b> and <b>Stimpy</b> Picture &amp; Photo",
       "contentNoFormatting": "Ren and Stimpy Picture &amp; Photo",
       "height": 356,
@@ -81,7 +77,6 @@ ImageSearch.GoogleImage.FIXTURES = [
       "width": 445,
   },  
       {    
-      "guid": 5,  
       "content": "<b>ren</b> and <b>stimpy</b>",
       "contentNoFormatting": "ren and stimpy",
       "height": 768,
@@ -98,7 +93,6 @@ ImageSearch.GoogleImage.FIXTURES = [
       "width": 1024,
   },  
       {   
-      "guid": 6,   
       "content": "<b>Ren</b> and <b>Stimpy</b>",
       "contentNoFormatting": "Ren and Stimpy",
       "height": 274,
@@ -115,7 +109,6 @@ ImageSearch.GoogleImage.FIXTURES = [
       "width": 360,
   },  
       {    
-      "guid": 7,  
       "content": "<b>Ren</b> and <b>Stimpy</b> music",
       "contentNoFormatting": "Ren and Stimpy music",
       "height": 268,
@@ -132,7 +125,6 @@ ImageSearch.GoogleImage.FIXTURES = [
       "width": 400,
   },  
       {
-      "guid": 8,
       "content": "<b>Ren</b> and <b>Stimpy</b>",
       "contentNoFormatting": "Ren and Stimpy",
       "height": 1024,
