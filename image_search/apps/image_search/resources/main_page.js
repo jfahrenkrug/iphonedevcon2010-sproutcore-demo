@@ -28,12 +28,12 @@ ImageSearch.mainPage = SC.Page.design({
       middleView: SC.SplitView.design({
         layout: { left: 0, top: 36, right: 0, bottom: 32 },
         layoutDirection: SC.LAYOUT_HORIZONTAL,
-        autoresizeBehavior: SC.RESIZE_TOP_LEFT,
+        autoresizeBehavior: SC.RESIZE_BOTTOM_RIGHT,
         defaultThickness: 0.8,
         //The list view is nested into the scrollview which is now in the splitview.
         topLeftView: SC.ScrollView.design({
           hasHorizontalScroller: NO,
-          layout: { top: 36, bottom: 32, left: 0, right: 0 },
+          layout: { top: 36, bottom: 32, width: 200 },
           backgroundColor: 'white',
           //Here is the original list view, which is bound to the tasksController
           contentView: SC.ListView.design({
@@ -49,6 +49,7 @@ ImageSearch.mainPage = SC.Page.design({
         }),
         topLeftMinThickness: 150,
         topLeftMaxThickness: 250,
+        canCollapseViews: NO,
         dividerView: SC.SplitDividerView.design({
             layout: {}
         }),
@@ -58,7 +59,7 @@ ImageSearch.mainPage = SC.Page.design({
           horizontalAlign: SC.ALIGN_CENTER,
           verticalAlign: SC.ALIGN_CENTER,
           canScale: YES,
-          contentView: SC.ImageView.design({
+          contentView: ImageSearch.ResizableImageView.design({
               layout: { left: 0, top: 0, right: 0, bottom: 0 },
               valueBinding: "ImageSearch.currentImageController.unescapedUrl"
           })
