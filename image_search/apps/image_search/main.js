@@ -30,20 +30,23 @@ ImageSearch.main = function main() {
   ImageSearch.imagesController.set('content', images);
 } ;
 
+function adjustLayoutToOrientation() {
+  var or = SC.device.get("orientation");
+  var splitView = ImageSearch.getPath('mainPage.mainPane.middleView');
+  var imagesButton = ImageSearch.getPath('mainPage.mainPane.topView.imagesButton');
+  var labelView = ImageSearch.getPath('mainPage.mainPane.topView.labelView');
+  var newLabelViewLayout = SC.clone(labelView.get('layout'));
+  
+  splitView.collapseTopLeftView(or !== 'landscape');
+  imagesButton.set("isVisible", or !== 'landscape');
+  
+  newLabelViewLayout.left = (or === 'landscape') ? 8 : 213;
+  labelView.set('layout', newLabelViewLayout);
+}
+
 function main() { 
   ImageSearch.main(); 
 
-  SC.device.addObserver("orientation", this, function() { 
-    var or = SC.device.get("orientation");
-    var splitView = ImageSearch.getPath('mainPage.mainPane.middleView');
-    var imagesButton = ImageSearch.getPath('mainPage.mainPane.topView.imagesButton');
-    var labelView = ImageSearch.getPath('mainPage.mainPane.topView.labelView');
-    var newLabelViewLayout = SC.clone(labelView.get('layout'));
-    
-    splitView.collapseTopLeftView(or !== 'landscape');
-    imagesButton.set("isVisible", or !== 'landscape');
-    
-    newLabelViewLayout.left = (or === 'landscape') ? 8 : 213;
-    labelView.set('layout', newLabelViewLayout);
-  });
+  SC.device.addObserver("orientation", this, adjustLayoutToOrientation);
+  adjustLayoutToOrientation();
 }
