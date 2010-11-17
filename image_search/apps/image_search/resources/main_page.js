@@ -5,6 +5,7 @@
 /*globals ImageSearch */
 
 // This page describes the main user interface for your application.  
+ImageSearch.DEFAULT_DIVIDER_WIDTH = 0.8;
 ImageSearch.mainPage = SC.Page.design({
 
   // The main pane is made visible on screen as soon as your app is loaded.
@@ -25,7 +26,7 @@ ImageSearch.mainPage = SC.Page.design({
         })
       }),
 
-      middleView: SC.SplitView.design({
+      middleView: ImageSearch.AwesomeSplitView.design({
         layout: { left: 0, top: 36, right: 0, bottom: 32 },
         layoutDirection: SC.LAYOUT_HORIZONTAL,
         autoresizeBehavior: SC.RESIZE_BOTTOM_RIGHT,
@@ -70,9 +71,9 @@ ImageSearch.mainPage = SC.Page.design({
               })
             })
         }),
-        topLeftMinThickness: 150,
+        //topLeftMinThickness: 150,
         topLeftMaxThickness: 250,
-        canCollapseViews: NO,
+        //canCollapseViews: YES,
         dividerView: SC.SplitDividerView.design({
             layout: {}
         }),

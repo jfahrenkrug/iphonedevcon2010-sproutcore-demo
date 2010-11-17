@@ -25,8 +25,6 @@ ImageSearch.main = function main() {
   // TODO: Set the content property on your primary controller
   // ex: ImageSearch.contactsController.set('content',ImageSearch.contacts);
   
-  
-  
   var query = SC.Query.remote(ImageSearch.GoogleImage, {query: 'ren and stimpy'});
   var images = ImageSearch.store.find(query);
   ImageSearch.imagesController.set('content', images);
@@ -34,4 +32,22 @@ ImageSearch.main = function main() {
 
 } ;
 
-function main() { ImageSearch.main(); }
+function main() { 
+  ImageSearch.main(); 
+
+  SC.device.addObserver("orientation", this, function() { 
+    var or = SC.device.get("orientation");
+    var splitView = ImageSearch.getPath('mainPage.mainPane.middleView');
+    
+    var toolBarButton = null;
+    console.log(or); 
+    
+    splitView.collapseTopLeftView(or !== 'landscape');
+    
+    if (or === 'landscape') {     
+      
+    } else {
+
+    }
+  });
+}
