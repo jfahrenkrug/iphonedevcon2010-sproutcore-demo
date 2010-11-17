@@ -16,13 +16,20 @@ ImageSearch.mainPage = SC.Page.design({
 
       topView: SC.ToolbarView.design({
         layout: { top: 0, left: 0, right: 0, height: 36 },
-        childViews: 'labelView'.w(),
+        childViews: 'imagesButton labelView'.w(),
         anchorLocation: SC.ANCHOR_TOP,
-        labelView: SC.LabelView.design({
+        imagesButton: SC.ButtonView.design({
           layout: { centerY: 0, height: 24, left: 8, width: 200 },
+          title:  "Pick an Image",
+          action: 'showPopover',
+          target: 'ImageSearch.imagesController'
+        }),
+        labelView: SC.LabelView.design({
+          layout: { centerY: 0, height: 24, left: 213, right: 8 },
           controlSize: SC.LARGE_CONTROL_SIZE,
           fontWeight: SC.BOLD_WEIGHT,
-          valueBinding: "ImageSearch.currentImageController.title"
+          valueBinding: "ImageSearch.currentImageController.title",
+          escapeHTML: NO
         })
       }),
 

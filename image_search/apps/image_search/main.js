@@ -28,8 +28,6 @@ ImageSearch.main = function main() {
   var query = SC.Query.remote(ImageSearch.GoogleImage, {query: 'ren and stimpy'});
   var images = ImageSearch.store.find(query);
   ImageSearch.imagesController.set('content', images);
-  
-
 } ;
 
 function main() { 
@@ -38,16 +36,14 @@ function main() {
   SC.device.addObserver("orientation", this, function() { 
     var or = SC.device.get("orientation");
     var splitView = ImageSearch.getPath('mainPage.mainPane.middleView');
-    
-    var toolBarButton = null;
-    console.log(or); 
+    var imagesButton = ImageSearch.getPath('mainPage.mainPane.topView.imagesButton');
+    var labelView = ImageSearch.getPath('mainPage.mainPane.topView.labelView');
+    var newLabelViewLayout = SC.clone(labelView.get('layout'));
     
     splitView.collapseTopLeftView(or !== 'landscape');
+    imagesButton.set("isVisible", or !== 'landscape');
     
-    if (or === 'landscape') {     
-      
-    } else {
-
-    }
+    newLabelViewLayout.left = (or === 'landscape') ? 8 : 213;
+    labelView.set('layout', newLabelViewLayout);
   });
 }
