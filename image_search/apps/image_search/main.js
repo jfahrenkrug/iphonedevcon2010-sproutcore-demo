@@ -37,10 +37,10 @@ function adjustLayoutToOrientation() {
   var labelView = ImageSearch.getPath('mainPage.mainPane.topView.labelView');
   var newLabelViewLayout = SC.clone(labelView.get('layout'));
   
-  splitView.collapseTopLeftView(or !== 'landscape');
-  imagesButton.set("isVisible", or !== 'landscape');
+  splitView.collapseTopLeftView(or === 'portrait');
+  imagesButton.set("isVisible", or === 'portrait');
   
-  newLabelViewLayout.left = (or === 'landscape') ? 8 : 213;
+  newLabelViewLayout.left = (or !== 'portrait') ? 8 : 213;
   labelView.set('layout', newLabelViewLayout);
 }
 
