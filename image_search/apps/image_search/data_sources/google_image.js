@@ -20,10 +20,23 @@ ImageSearch.GoogleImageDataSource = SC.DataSource.extend(
   // 
 
   fetch: function(store, query, params) {
+    var self = this;
     console.log('in fetch');
-    SC.Request.getUrl('ajax/services/search/images?v=1.0&rsz=large&imgtype=photo&q='+query.query).json()
-      .notify(this, 'didFetchImages', store, query)
-      .send();
+    if (SC.buildMode === 'debug') {
+      SC.Request.getUrl('ajax/services/search/images?v=1.0&rsz=large&imgtype=photo&q='+query.query).json()
+        .notify(this, 'didFetchImages', store, query)
+        .send();
+    } else  {
+      // in production we need to use jsonp with jquery to work around cross domain restrictions
+      Q$.getJSON('http://ajax.googleapis.com/ajax/services/search/images?v=1.0&rsz=large&imgtype=photo&q='+query.query+'&callback=?', null, 
+        function(data, textStatus, xhr) {
+          SC.run(function() {
+            var response = SC.Response.create({ request: null, body: data, status: textStatus });
+            self.didFetchImages(response, store, query);
+          });
+        });
+    }
+    
     return YES;
   },
   
@@ -31,12 +44,9 @@ ImageSearch.GoogleImageDataSource = SC.DataSource.extend(
     console.log('in didfetch');
     var data;
     if (SC.ok(response)) {
+      console.log('response ok');
       data = response.get('body').responseData.results;
-      
-      console.log(data);
-      
-      
-      
+
       var storeKeys = store.loadRecords(ImageSearch.GoogleImage, data);
       store.loadQueryResults(query, storeKeys);
       
