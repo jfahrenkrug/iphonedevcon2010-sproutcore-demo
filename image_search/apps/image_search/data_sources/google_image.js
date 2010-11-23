@@ -28,7 +28,7 @@ ImageSearch.GoogleImageDataSource = SC.DataSource.extend(
         .send();
     } else  {
       // in production we need to use jsonp with jquery to work around cross domain restrictions
-      Q$.getJSON('http://ajax.googleapis.com/ajax/services/search/images?v=1.0&rsz=large&imgtype=photo&q='+query.query+'&callback=?', null, 
+      $.getJSON('http://ajax.googleapis.com/ajax/services/search/images?v=1.0&rsz=large&imgtype=photo&q='+query.query+'&callback=?', null, 
         function(data, textStatus, xhr) {
           SC.run(function() {
             var response = SC.Response.create({ request: null, body: data, status: textStatus });

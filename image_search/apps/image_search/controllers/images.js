@@ -77,7 +77,7 @@ ImageSearch.imagesController = SC.ArrayController.create(
           })
       })
     });
-    pane.popup(view, SC.PICKER_FIXED);
+    pane.popup(view, SC.PICKER_POINTER);
   },
   
     
