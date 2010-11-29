@@ -64,7 +64,7 @@
     [imageScrollView setAutoresizingMask:CPViewWidthSizable | CPViewHeightSizable ]; 
     [leftView addSubview:imageScrollView];
 
-    /* ------------- Map View ----------------- */
+    /* ------------- Image View ----------------- */
     imageView = [[CPImageView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth([rightView bounds]), CGRectGetHeight([rightView bounds]))];
     [imageView setAutoresizingMask:CPViewWidthSizable | CPViewHeightSizable ]; 
     [imageView setImageScaling:CPScaleProportionally];
