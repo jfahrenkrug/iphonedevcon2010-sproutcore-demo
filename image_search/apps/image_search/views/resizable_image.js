@@ -46,8 +46,6 @@ ImageSearch.ResizableImageView = SC.ImageView.extend(
     _aspectSizeToFit: function() {
         // Calculate and resize based on parent frame and cached dimensions
         var f = this.parentView.get('frame');
-        theGlobalF = f;
-        console.log(f);
         var w = this.currentImageSize.width;
         var h = this.currentImageSize.height;
         

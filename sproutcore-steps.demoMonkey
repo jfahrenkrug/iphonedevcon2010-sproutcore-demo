@@ -1,0 +1,535 @@
+bplist00‘ÕŒT$topX$objectsX$versionY$archiver—TrootÄØF	
+%-./07<=>CDEJKLQRSXYZ[`abghinotuv{|}ÇÉÑâäãêëíóòôûü†•¶ß¨≠Æ≥¥µ∫ªº¡¬√»…U$null“$ZNS.objectsV$classØ !"#ÄÄÄ
+ÄÄÄÄÄÄÄÄ"Ä%Ä(Ä+Ä.Ä1Ä4Ä7Ä:Ä=Ä@ÄCÄE‘&'()*+,WToolTip\TableSummaryTBodyÄÄÄÄ_§ImageSearch.GoogleImage = SC.Record.extend(
+/** @scope ImageSearch.GoogleImage.prototype */ {
+    primaryKey: "imageId",
+  
+    content: SC.Record.attr(String),
+    contentNoFormatting: SC.Record.attr(String),
+    height: SC.Record.attr(Number),
+    imageId: SC.Record.attr(String),
+    originalContextUrl: SC.Record.attr(String),
+    tbHeight: SC.Record.attr(Number),
+    tbUrl: SC.Record.attr(String),
+    tbWidth: SC.Record.attr(Number),
+    title: SC.Record.attr(String),
+    titleNoFormatting: SC.Record.attr(String),
+    unescapedUrl: SC.Record.attr(String),
+    url: SC.Record.attr(String),
+    visibleUrl: SC.Record.attr(String),
+    width: SC.Record.attr(Number)
+}) ;P_1. models/google_image.js“1236X$classesZ$classname¢45TStepXNSObjectTStep‘&'()9:,ÄÄ	ÄÄ_πImageSearch.GoogleImage.FIXTURES = [
+
+  // TODO: Add your data fixtures here.
+  // All fixture records must have a unique primary key (default 'guid').  See 
+  // the example below.
+
+  {
+      "content": "<b>Ren</b> &amp; <b>Stimpy</b> information",
+      "contentNoFormatting": "Ren &amp; Stimpy information",
+      "height": 474,
+      "imageId": "WttpFfB1sW1z1M:",
+      "originalContextUrl": "http://www.lysator.liu.se/~marcus/ren_stimpy/",
+      "tbHeight": 103,
+      "tbUrl": "http://images.google.com/images?q=tbn:WttpFfB1sW1z1M::www.lysator.liu.se/~marcus/ren_stimpy/Ren_and_Stimpy-opening-3.jpg",
+      "tbWidth": 136,
+      "title": "<b>Ren</b> &amp, <b>Stimpy</b> Mainpage",
+      "titleNoFormatting": "Ren &amp, Stimpy Mainpage",
+      "unescapedUrl": "http://www.lysator.liu.se/~marcus/ren_stimpy/Ren_and_Stimpy-opening-3.jpg",
+      "url": "http://www.lysator.liu.se/~marcus/ren_stimpy/Ren_and_Stimpy-opening-3.jpg",
+      "visibleUrl": "www.lysator.liu.se",
+      "width": 626,
+  },  
+      {
+      "content": "<b>ren</b> and <b>stimpy</b>",
+      "contentNoFormatting": "ren and stimpy",
+      "height": 375,
+      "imageId": "2lbOrNv0W6qVpM:",
+      "originalContextUrl": "http://board.muse.mu/album.php?albumid=745&pictureid=7202",
+      "tbHeight": 98,
+      "tbUrl": "http://images.google.com/images?q=tbn:2lbOrNv0W6qVpM::board.muse.mu/picture.php%3Falbumid%3D745%26pictureid%3D7202",
+      "tbWidth": 130,
+      "title": "Muse Messageboard - TwistedGirly&#39;s Album: What&#39;s That Coming Over <b>...</b>",
+      "titleNoFormatting": "Muse Messageboard - TwistedGirly&#39;s Album: What&#39;s That Coming Over ...",
+      "unescapedUrl": "http://board.muse.mu/picture.php?albumid=745&pictureid=7202",
+      "url": "http://board.muse.mu/picture.php%3Falbumid%3D745%26pictureid%3D7202",
+      "visibleUrl": "board.muse.mu",
+      "width": 500,
+  },  
+      {
+      "content": "Even <b>Ren</b> and <b>Stimpy</b>",
+      "contentNoFormatting": "Even Ren and Stimpy",
+      "height": 300,
+      "imageId": "Xil_WiiiI0YrlM:",
+      "originalContextUrl": "http://www.amiright.com/album-covers/abbey-road-parodies/",
+      "tbHeight": 116,
+      "tbUrl": "http://images.google.com/images?q=tbn:Xil_WiiiI0YrlM::www.amiright.com/album-covers/images/album-Ren--Stimpy-You-Eediot.jpg",
+      "tbWidth": 116,
+      "title": "The Beatles: Abbey Road Album Cover Parodies",
+      "titleNoFormatting": "The Beatles: Abbey Road Album Cover Parodies",
+      "unescapedUrl": "http://www.amiright.com/album-covers/images/album-Ren--Stimpy-You-Eediot.jpg",
+      "url": "http://www.amiright.com/album-covers/images/album-Ren--Stimpy-You-Eediot.jpg",
+      "visibleUrl": "www.amiright.com",
+      "width": 300,
+  },  
+      {   
+      "content": "<b>Ren</b> and <b>Stimpy</b> Picture &amp; Photo",
+      "contentNoFormatting": "Ren and Stimpy Picture &amp; Photo",
+      "height": 356,
+      "imageId": "LwYZSscEjrx-9M:",
+      "originalContextUrl": "http://www.starpulse.com/Television/Ren_and_Stimpy/gallery/Ren-Stimpy-tv-02/",
+      "tbHeight": 102,
+      "tbUrl": "http://images.google.com/images?q=tbn:LwYZSscEjrx-9M::images.starpulse.com/Photos/Previews/Ren-Stimpy-tv-02.jpg",
+      "tbWidth": 127,
+      "title": "<b>Ren</b> and <b>Stimpy</b> Pictures &amp, Photos - <b>Ren</b> and <b>Stimpy</b>",
+      "titleNoFormatting": "Ren and Stimpy Pictures &amp, Photos - Ren and Stimpy",
+      "unescapedUrl": "http://images.starpulse.com/Photos/Previews/Ren-Stimpy-tv-02.jpg",
+      "url": "http://images.starpulse.com/Photos/Previews/Ren-Stimpy-tv-02.jpg",
+      "visibleUrl": "www.starpulse.com",
+      "width": 445,
+  },  
+      {    
+      "content": "<b>ren</b> and <b>stimpy</b>",
+      "contentNoFormatting": "ren and stimpy",
+      "height": 768,
+      "imageId": "M03V2-yBHsEV1M:",
+      "originalContextUrl": "http://www.fwallpapers.net/ren-and-stimpy.html",
+      "tbHeight": 113,
+      "tbUrl": "http://images.google.com/images?q=tbn:M03V2-yBHsEV1M::www.fwallpapers.net/pics/cartoons/ren-and-stimpy/ren-and-stimpy_000.jpg",
+      "tbWidth": 150,
+      "title": "<b>ren</b> and <b>stimpy</b> free desktop wallpapers | <b>stimpy</b>",
+      "titleNoFormatting": "ren and stimpy free desktop wallpapers | stimpy",
+      "unescapedUrl": "http://www.fwallpapers.net/pics/cartoons/ren-and-stimpy/ren-and-stimpy_000.jpg",
+      "url": "http://www.fwallpapers.net/pics/cartoons/ren-and-stimpy/ren-and-stimpy_000.jpg",
+      "visibleUrl": "www.fwallpapers.net",
+      "width": 1024,
+  },  
+      {   
+      "content": "<b>Ren</b> and <b>Stimpy</b>",
+      "contentNoFormatting": "Ren and Stimpy",
+      "height": 274,
+      "imageId": "srgpBZbW_-_zhM:",
+      "originalContextUrl": "http://blog.nomans.us/2006/05/18/day-16-post-aclr--mental-illness-components.aspx",
+      "tbHeight": 92,
+      "tbUrl": "http://images.google.com/images?q=tbn:srgpBZbW_-_zhM::images.quickblogcast.com/20244-19309/animation_ren_stimpy1.gif",
+      "tbWidth": 121,
+      "title": "Fishing For Life",
+      "titleNoFormatting": "Fishing For Life",
+      "unescapedUrl": "http://images.quickblogcast.com/20244-19309/animation_ren_stimpy1.gif",
+      "url": "http://images.quickblogcast.com/20244-19309/animation_ren_stimpy1.gif",
+      "visibleUrl": "blog.nomans.us",
+      "width": 360,
+  },  
+      {    
+      "content": "<b>Ren</b> and <b>Stimpy</b> music",
+      "contentNoFormatting": "Ren and Stimpy music",
+      "height": 268,
+      "imageId": "BrfplJdysM7JnM:",
+      "originalContextUrl": "http://www.diversionprojects.org/index.php?m=05&y=07&entry=entry070531-145138",
+      "tbHeight": 83,
+      "tbUrl": "http://images.google.com/images?q=tbn:BrfplJdysM7JnM::www.diversionprojects.org/images/Ren_and_Stimpy_Radio.jpg",
+      "tbWidth": 124,
+      "title": "Diversion Projects - <b>Ren</b> and <b>Stimpy</b> music",
+      "titleNoFormatting": "Diversion Projects - Ren and Stimpy music",
+      "unescapedUrl": "http://www.diversionprojects.org/images/Ren_and_Stimpy_Radio.jpg",
+      "url": "http://www.diversionprojects.org/images/Ren_and_Stimpy_Radio.jpg",
+      "visibleUrl": "www.diversionprojects.org",
+      "width": 400,
+  },  
+      {
+      "content": "<b>Ren</b> and <b>Stimpy</b>",
+      "contentNoFormatting": "Ren and Stimpy",
+      "height": 1024,
+      "imageId": "JIa4gsLBX1cAkM:",
+      "originalContextUrl": "http://www.fanpop.com/spots/ren-and-stimpy/images/121962/title/ren-stimpy-photo",
+      "tbHeight": 150,
+      "tbUrl": "http://images.google.com/images?q=tbn:JIa4gsLBX1cAkM::images.fanpop.com/images/image_uploads/Ren-and-Stimpy-ren-and-stimpy-121962_663_1024.jpg",
+      "tbWidth": 97,
+      "title": "<b>Ren</b> and <b>Stimpy</b> - <b>Ren</b> and <b>Stimpy</b> Photo (121962) - Fanpop",
+      "titleNoFormatting": "Ren and Stimpy - Ren and Stimpy Photo (121962) - Fanpop",
+      "unescapedUrl": "http://images.fanpop.com/images/image_uploads/Ren-and-Stimpy-ren-and-stimpy-121962_663_1024.jpg",
+      "url": "http://images.fanpop.com/images/image_uploads/Ren-and-Stimpy-ren-and-stimpy-121962_663_1024.jpg",
+      "visibleUrl": "www.fanpop.com",
+      "width": 663,
+  }
+
+];_2. fixtures/google_image.js‘&'()@A,ÄÄÄÄ_tImageSearch.imagesController = SC.ArrayController.create(
+/** @scope ImageSearch.imagesController.prototype */ {
+
+  searchTerm: null,
+
+  summary: function() {
+    var len = this.get('length'), ret ;
+
+    if (len && len > 0) {
+      ret = len === 1 ? "1 image" : "%@ images".fmt(len);
+    } else ret = "No images";
+
+    return ret;
+  }.property('length').cacheable(),
+
+}) ;_3. controllers/images.js‘&'()GH,ÄÄÄÄ_ïvar query = SC.Query.local(ImageSearch.GoogleImage);
+var images = ImageSearch.store.find(query);
+ImageSearch.imagesController.set('content', images);_4. main.js: fixtures in ctrl‘&'()NO,ÄÄÄÄ_
+^ImageSearch.mainPage = SC.Page.design({
+
+  // The main pane is made visible on screen as soon as your app is loaded.
+  // Add childViews to this pane for views to display immediately on page 
+  // load.
+  mainPane: SC.MainPane.design({
+      childViews: 'middleView topView bottomView'.w(),
+
+      topView: SC.ToolbarView.design({
+        layout: { top: 0, left: 0, right: 0, height: 36 },
+        childViews: 'labelView'.w(),
+        anchorLocation: SC.ANCHOR_TOP,
+        labelView: SC.LabelView.design({
+          layout: { centerY: 0, height: 24, left: 8, right: 8 },
+          controlSize: SC.LARGE_CONTROL_SIZE,
+          fontWeight: SC.BOLD_WEIGHT,
+          value: "Title",
+          escapeHTML: NO
+        })
+      }),
+
+      middleView: SC.SplitView.design({
+        layout: { left: 0, top: 36, right: 0, bottom: 32 },
+        layoutDirection: SC.LAYOUT_HORIZONTAL,
+        autoresizeBehavior: SC.RESIZE_BOTTOM_RIGHT,
+        defaultThickness: 0.8,
+        //The list view is nested into the scrollview which is now in the splitview.
+        topLeftView: SC.View.design({
+          layout: { top: 36, bottom: 32, width: 200 },
+          childViews: 'scrollView'.w(),
+      
+          scrollView: SC.ScrollView.design({
+            hasHorizontalScroller: NO,
+            layout: { top: 28, bottom: 0, left: 5, right: 5 },
+            backgroundColor: 'white',
+            //Here is the original list view, which is bound to the tasksController
+            contentView: SC.ListView.design({
+              contentBinding: 'ImageSearch.imagesController.arrangedObjects',
+              selectionBinding: 'ImageSearch.imagesController.selection',
+              contentValueKey: "content",
+              contentIconKey: "tbUrl",
+              exampleView: SC.ImageView,
+              hasContentIcon:  YES,
+              escapeHTML: NO,
+              rowHeight: 70,
+            })
+          })
+        }),
+        topLeftMaxThickness: 250,
+        dividerView: SC.SplitDividerView.design({
+            layout: {}
+        }),
+        //This view shows up on the right. It is a placeholder, later we will use a formview.
+        bottomRightView: SC.ScrollView.design({
+          layout: { left: 5, top: 36, right: 5, bottom: 32 },
+          horizontalAlign: SC.ALIGN_CENTER,
+          verticalAlign: SC.ALIGN_CENTER,
+          canScale: YES,
+          contentView: SC.ListItemView.design({
+              layout: { left: 0, top: 0, right: 0, bottom: 0 },
+          })
+        })
+      }),
+
+      bottomView: SC.ToolbarView.design({
+        layout: { bottom: 0, left: 0, right: 0, height: 32 },
+        anchorLocation: SC.ANCHOR_BOTTOM
+      })
+    })
+
+});_5. main_page.js‘&'(TUV,ÄÄÄÄ_∑ImageSearch.ImageThumbListItemView = SC.ListItemView.extend(
+/** @scope ImageSearch.ImageThumbListItemView.prototype */ {
+
+  escapeHTML: NO,
+
+  classNames: ['sc-list-item-view'],
+
+});P_!6. views/image_thumb_list_item.js‘&'(T]^,ÄÄÄÄ_á.sc-list-item-view.has-icon label {
+  left: 75px;
+}
+
+.sc-list-item-view img.icon {
+  max-width: 60px;
+  max-height: 60px;
+  top: 25%;
+}_7. resources/style.css‘&'(Tde,ÄÄÄÄ_LcontentBinding: SC.Binding.single('ImageSearch.imagesController.selection'),_8. controllers/current_image.js‘&'(TkT,ÄÄÄÄ_9. main_page.js‘&'(Tqr,ÄÄ!Ä Ä_9valueBinding: "ImageSearch.currentImageController.title",_10. main_page.js‘&'(Txy,ÄÄ$Ä#Ä_ÏchildViews: 'textField scrollView'.w(),
+textField: SC.TextFieldView.design({
+  layout: { top: 2, height: 24, left: 5, right: 5 },
+  controlSize: SC.LARGE_CONTROL_SIZE,
+  fontWeight: SC.BOLD_WEIGHT,
+  hint: 'type your search here',
+  valueBinding: 'ImageSearch.imagesController.searchTerm',
+  target: "ImageSearch.imagesController",
+  action: "performSearch",
+  keyDown: function(evt) {
+    sc_super(); // necessary to guarantee regular handling of keyDown events, 
+                 // want to avoid that this overwrite messes everything up     	   
+    if (evt.keyCode === 13) {
+      // trigger the search after we've seen an "enter"
+      ImageSearch.imagesController.performSearch(); 
+      return YES;
+    } else {
+      return NO;
+    }
+  }}),_11. main_page.js‘&'(TÄ,ÄÄ'Ä&Ä_]performSearch: function() {    
+  console.log("Searching for: " + this.get('searchTerm'));
+},_12. controllers/images.js‘&'(TÜá,ÄÄ*Ä)Ä_Kfetch: function(store, query, params) {
+SC.Request.getUrl('ajax/services/search/images?v=1.0&rsz=large&imgtype=photo&q='+query.query).json()
+    .notify(this, 'didFetchImages', store, query)
+    .send();
+  return YES;
+},
+
+didFetchImages: function(response, store, query) {
+  var data;
+  if (SC.ok(response)) {
+    data = response.get('body').responseData.results;
+
+    var storeKeys = store.loadRecords(ImageSearch.GoogleImage, data);
+    store.loadQueryResults(query, storeKeys);
+
+    store.dataSourceDidFetchQuery(query);
+  } 
+  else store.dataSourceDidErrorQuery(query, response);
+},
+_ 13. data_sources/google_image.js‘&'(Tçé,ÄÄ-Ä,Ä_Aproxy '/ajax/services/search/images', :to =>'ajax.googleapis.com']14. Buildfile‘&'(Tîï,ÄÄ0Ä/Ä_gstore: SC.Store.create({
+  commitRecordsAutomatically: YES
+}).from('ImageSearch.GoogleImageDataSource')[15. core.js‘&'(Tõú,ÄÄ3Ä2Ä_±var query = SC.Query.remote(ImageSearch.GoogleImage, {query: 'ren and stimpy'});
+var images = ImageSearch.store.find(query);
+ImageSearch.imagesController.set('content', images);[16. main.js‘&'(T¢£,ÄÄ6Ä5Ä_ÌperformSearch: function() {    
+  var imageQuery = SC.Query.remote(ImageSearch.GoogleImage, {query: this.get('searchTerm')});
+  var images = ImageSearch.store.find(imageQuery);
+  
+  ImageSearch.imagesController.set('content', images);
+},_17. controllers/images.js‘&'(T©™,ÄÄ9Ä8Ä_;ImageSearch.ResizableImageView = SC.ImageView.extend(
+/** @scope ImageSearch.ResizableImageView.prototype */ {
+    
+    currentImageSize: {width: 0, height: 0},
+        
+    showLoadingSpinner: true,
+    
+    render: function(context, firstTime) {
+      sc_super();
+      
+      
+      if (this.get('status') === SC.IMAGE_STATE_LOADING && this.get('showLoadingSpinner')) {
+        context.attr('src', static_url('resources/spinner.gif'));
+      }
+      
+    },
+
+    imageDidLoad: function(url, imageOrError) {
+        sc_super();
+        if (SC.$ok(imageOrError)) {
+            console.log ('image did load' + imageOrError);
+            // Cache the width and height from imageOrError which will be an Image object
+            this.currentImageSize.width = imageOrError.width;
+            this.currentImageSize.height = imageOrError.height;
+            
+            this._aspectSizeToFit();
+        } 
+    },
+    
+    sizeToFit: function() {
+        this._aspectSizeToFit();
+    }.observes('.parentView.frame'),
+    
+    _aspectSizeToFit: function() {
+        // Calculate and resize based on parent frame and cached dimensions
+        var f = this.parentView.get('frame');
+        var w = this.currentImageSize.width;
+        var h = this.currentImageSize.height;
+        
+        var newWidth = w;
+        var newHeight = h;
+        
+        if (this.get('status') === SC.IMAGE_STATE_LOADED) {
+            if (f.height >= (h * (f.width/w))) {
+                newWidth = f.width;
+                newHeight = h * (f.width/w);
+            } else {
+                newHeight = f.height;
+                newWidth = w * (f.height/h);
+            }              
+        } else {
+          newHeight = 35;
+          newWidth = 35;
+        }
+  
+        if (this.get('layer')) {
+            var imageStyle = this.get('layer').style;
+            
+            imageStyle.width = newWidth + 'px';
+            imageStyle.height = newHeight + 'px';
+            imageStyle.top = ((f.height - newHeight) / 2) + 'px';
+            imageStyle.left = ((f.width - newWidth) / 2) + 'px';
+        }
+    }.observes('status'),
+});_18. views/resizable_image.js‘&'(T∞±,ÄÄ<Ä;Ä_◊topView: SC.ToolbarView.design({
+        layout: { top: 0, left: 0, right: 0, height: 36 },
+        childViews: 'imagesButton labelView'.w(),
+        anchorLocation: SC.ANCHOR_TOP,
+        imagesButton: SC.ButtonView.design({
+          layout: { centerY: 0, height: 24, left: 8, width: 200 },
+          title:  "Pick an Image",
+          action: 'showPopover',
+          target: 'ImageSearch.imagesController'
+        }),
+        labelView: SC.LabelView.design({
+          layout: { centerY: 0, height: 24, left: 213, right: 8 },
+          controlSize: SC.LARGE_CONTROL_SIZE,
+          fontWeight: SC.BOLD_WEIGHT,
+          valueBinding: "ImageSearch.currentImageController.title",
+          escapeHTML: NO
+        })
+      }),_19. main_page.js‘&'(T∑∏,ÄÄ?Ä>Ä_êshowPopover: function(view) {
+    console.log("view = "+view);
+    var pane = SC.PickerPane.create({
+      layout: { width: 200, height: 500 },
+      contentView: SC.View.design({
+        layout: { top: 0, bottom: 0, width: 200 },
+        childViews: 'textField scrollView'.w(),
+        textField: SC.TextFieldView.design({
+          layout: { top: 2, height: 24, left: 5, right: 5 },
+          controlSize: SC.LARGE_CONTROL_SIZE,
+          fontWeight: SC.BOLD_WEIGHT,
+          hint: 'type your search here',
+          valueBinding: 'ImageSearch.imagesController.searchTerm',
+          target: "ImageSearch.imagesController",
+          action: "performSearch",
+          keyDown: function(evt) {
+            sc_super(); // necessary to guarantee regular handling of keyDown events, 
+                         // want to avoid that this overwrite messes everything up     	   
+            if (evt.keyCode === 13) {
+              // trigger the search after we've seen an "enter"
+              ImageSearch.imagesController.performSearch(); 
+              return YES;
+            } else {
+              return NO;
+            }
+          }}),
+          scrollView: SC.ScrollView.design({
+            hasHorizontalScroller: NO,
+            layout: { top: 28, bottom: 0, left: 5, right: 5 },
+            backgroundColor: 'white',
+            //Here is the original list view, which is bound to the tasksController
+            contentView: SC.ListView.design({
+              contentBinding: 'ImageSearch.imagesController.arrangedObjects',
+              selectionBinding: 'ImageSearch.imagesController.selection',
+              contentValueKey: "content",
+              contentIconKey: "tbUrl",
+              exampleView: ImageSearch.ImageThumbListItemView,
+              hasContentIcon:  YES,
+              escapeHTML: NO,
+              rowHeight: 70,
+            })
+          })
+      })
+    });
+    pane.popup(view, SC.PICKER_POINTER);
+  },_20. controllers/images.js‘&'(Tæø,ÄÄBÄAÄoØ / /   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+ / /   P r o j e c t :       I m a g e S e a r c h . A w e s o m e S p l i t V i e w 
+ / /   C o p y r i g h t :   © 2 0 1 0   M y   C o m p a n y ,   I n c . 
+ / /   = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+ / * g l o b a l s   I m a g e S e a r c h   * / 
+ 
+ / * *   @ c l a s s 
+ 
+     ( D o c u m e n t   Y o u r   V i e w   H e r e ) 
+ 
+     @ e x t e n d s   S C . V i e w 
+ * / 
+ I m a g e S e a r c h . A w e s o m e S p l i t V i e w   =   S C . S p l i t V i e w . e x t e n d ( 
+ / * *   @ s c o p e   I m a g e S e a r c h . A w e s o m e S p l i t V i e w . p r o t o t y p e   * /   { 
+     
+     c o l l a p s e T o p L e f t V i e w :   f u n c t i o n ( y n )   { 
+         i f   ( y n )   { 
+             r e t u r n   t h i s . c o l l a p s e V i e w ( t h i s . _ t o p L e f t V i e w ) ; 
+         }   e l s e   { 
+             r e t u r n   t h i s . u n c o l l a p s e V i e w ( t h i s . _ t o p L e f t V i e w ) ; 
+         } 
+     } , 
+     
+     c o l l a p s e B o t t o m R i g h t V i e w :   f u n c t i o n ( y n )   { 
+         i f   ( y n )   { 
+             r e t u r n   t h i s . c o l l a p s e V i e w ( t h i s . _ b o t t o m R i g h t V i e w ) ; 
+         }   e l s e   { 
+             r e t u r n   t h i s . u n c o l l a p s e V i e w ( t h i s . _ b o t t o m R i g h t V i e w ) ; 
+         } 
+     } , 
+ 
+     c o l l a p s e V i e w :   f u n c t i o n ( v i e w )   { 
+         i f   ( v i e w   ! = =   t h i s . _ t o p L e f t V i e w   & &   v i e w   ! = =   t h i s . _ b o t t o m R i g h t V i e w )   { 
+             r e t u r n   N O ; 
+         } 
+         
+         t h i s . _ c a c h e C u r r e n t D i m e n s i o n s ( ) ; 
+         
+         v a r   i s C o l l a p s e d   =   v i e w . g e t ( ' i s C o l l a p s e d ' )   | |   N O   ; 
+         
+         i f   ( ! i s C o l l a p s e d   & &   t h i s . c a n C o l l a p s e V i e w ( v i e w ) )   { 
+             / /   r e m e m b e r   t h i c k n e s s   i n   i t ' s   u n c o l l a p s e d   s t a t e 
+             t h i s . _ u n c o l l a p s e d T h i c k n e s s   =   t h i s . t h i c k n e s s F o r V i e w ( v i e w )     ; 
+             t h i s . _ u n c o l l a p s e d D i v i d e r T h i c k n e s s   =   t h i s . g e t ( ' d i v i d e r T h i c k n e s s ' ) ; 
+             
+             i f   ( v i e w   = = =   t h i s . _ t o p L e f t V i e w )   { 
+                 t h i s . _ u p d a t e T o p L e f t T h i c k n e s s ( t h i s . t o p L e f t T h i c k n e s s ( ) * - 1 )   ; 
+             }   e l s e   { 
+                 t h i s . _ u p d a t e B o t t o m R i g h t T h i c k n e s s ( t h i s . b o t t o m R i g h t T h i c k n e s s ( ) * - 1 )   ; 
+             } 
+             
+             / /   i f   h o w e v e r   t h e   s p l i t v i e w   d e c i d e d   n o t   t o   c o l l a p s e ,   c l e a r : 
+             i f   ( ! v i e w . g e t ( " i s C o l l a p s e d " ) )   { 
+                 t h i s . _ u n c o l l a p s e d T h i c k n e s s   =   n u l l ; 
+                 r e t u r n   N O ; 
+             } 
+             
+             t h i s . s e t ( ' d i v i d e r T h i c k n e s s ' ,   0 ) ; 
+             t h i s . u p d a t e C h i l d L a y o u t ( ) ; 
+             r e t u r n   Y E S ; 
+         }   
+         
+         r e t u r n   N O ; 
+     } , 
+     
+     u n c o l l a p s e V i e w :   f u n c t i o n ( v i e w )   { 
+         i f   ( v i e w   ! = =   t h i s . _ t o p L e f t V i e w   & &   v i e w   ! = =   t h i s . _ b o t t o m R i g h t V i e w )   { 
+             r e t u r n   N O ; 
+         } 
+         
+         v a r   i s C o l l a p s e d   =   v i e w . g e t ( ' i s C o l l a p s e d ' )   | |   N O   ; 
+ 
+         i f   ( i s C o l l a p s e d )   { 
+             t h i s . s e t ( ' d i v i d e r T h i c k n e s s ' ,   ( t h i s . _ u n c o l l a p s e d D i v i d e r T h i c k n e s s   | |   7 ) ) ; 
+             t h i s . _ c a c h e C u r r e n t D i m e n s i o n s ( ) ; 
+             / /   u n c o l l a p s e   t o   t h e   l a s t   t h i c k n e s s   i n   i t ' s   u n c o l l a p s e d   s t a t e 
+             i f   ( v i e w   = = =   t h i s . _ t o p L e f t V i e w )   { 
+                 t h i s . _ u p d a t e T o p L e f t T h i c k n e s s ( t h i s . _ u n c o l l a p s e d T h i c k n e s s )   ; 
+             }   e l s e   { 
+                 t h i s . _ u p d a t e B o t t o m R i g h t T h i c k n e s s ( t h i s . _ u n c o l l a p s e d T h i c k n e s s )   ; 
+             } 
+             v i e w . _ u n c o l l a p s e d T h i c k n e s s   =   n u l l   ; 
+             
+             t h i s . u p d a t e C h i l d L a y o u t ( ) ; 
+         } 
+         
+         r e t u r n   t r u e ; 
+     } , 
+     
+     / * *   @ p r i v a t e   * / 
+     _ c a c h e C u r r e n t D i m e n s i o n s :   f u n c t i o n ( )   { 
+         t h i s . _ t o p L e f t V i e w   =   t h i s . g e t ( ' t o p L e f t V i e w ' )   ; 
+         t h i s . _ b o t t o m R i g h t V i e w   =   t h i s . g e t ( ' b o t t o m R i g h t V i e w ' )   ; 
+         t h i s . _ t o p L e f t V i e w T h i c k n e s s   =   t h i s . t h i c k n e s s F o r V i e w ( t h i s . g e t ( ' t o p L e f t V i e w ' ) ) ; 
+         t h i s . _ b o t t o m R i g h t T h i c k n e s s   =   t h i s . t h i c k n e s s F o r V i e w ( t h i s . g e t ( ' b o t t o m R i g h t V i e w ' ) ) ; 
+         t h i s . _ d i v i d e r T h i c k n e s s   =   t h i s . g e t ( ' d i v i d e r T h i c k n e s s ' )   ; 
+         t h i s . _ l a y o u t D i r e c t i o n   =   t h i s . g e t ( ' l a y o u t D i r e c t i o n ' )   ; 
+     } , 
+     
+ } ) ; 
+_21. views/awesome_split.js‘&'(T≈T,ÄÄDÄÄ[22. main.js“12 À£ÀÃ5^NSMutableArrayWNSArray Ü†_NSKeyedArchiver     ( 2 5 : < Ö ã ê õ ¢ ª Ω ø ¡ √ ≈ « … À Õ œ — ” ’ ◊ Ÿ € › ﬂ · „ Â Á È Ú ˙ºΩŸﬁÁÚı˙÷Ù˝ˇ   !}!ò!°!£!•!ß!©"A"`"i"k"m"o"q,”,Â,Ó,,Ú,Ù,ˆ-∞-±-’-ﬁ-‡-‚-‰-Ê.p.â.í.î.ñ.ò.ö.È///////./7/9/;/=/?/{/é/ó/ô/õ/ù/ü2è2¢2´2≠2Ø2±2≥33/383:3<3>3@5è5≤5ª5Ω5ø5¡5√6666 6"6$6&6ê6ú6•6ß6©6´6≠7a7m7v7x7z7|7~8n8ä8ì8ï8ó8ô8õ@⁄@˘AAAAA
+CÂC¯DDDDD	KùKπK¬KƒK∆K»K c,cIcRcTcVcXcZcfckcoc~cÜcã             œ              cù
