@@ -89,7 +89,8 @@
 
 - (void)searchImage {
     if ([searchField stringValue]) {
-
+      console.log('search');
+      [imagesController search:[searchField stringValue]];
     }
 }
 
