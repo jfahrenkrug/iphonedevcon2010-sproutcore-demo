@@ -1,6 +1,5 @@
 @import <Foundation/CPObject.j>
 @import "GoogleImage.j"
-@import "DemoData.j"
 @import "ImageListView.j"
 
 @implementation ImagesController : CPObject
@@ -22,13 +21,6 @@
     return images;
 }
 
-- (void)loadExampleImages {
-    //var json = [[DemoData exampleJSONString] objectFromJSON];
-    var json = [DemoData exampleJSON];
-    console.log(json);
-    [self setImages:[GoogleImage imagesFromJSONObjects:json]];
-}
-
 - (Image)selectedImage {
     return [images objectAtIndex:[[imageListView selectionIndexes] firstIndex]];
 }
@@ -41,7 +33,6 @@
 
 - (void)search:(CPString)term {
     if (term && [term length] > 0) {
-      console.log('search1');
         var request = [CPURLRequest requestWithURL:'http://ajax.googleapis.com/ajax/services/search/images?v=1.0&rsz=large&imgtype=photo&q=' + term];
         [request setHTTPMethod:@"GET"];
 
@@ -56,7 +47,6 @@
  
 - (void)connection:(CPURLConnection)connection didReceiveData:(CPString)data
 {
-  console.log('search2');
     if (!receivedData) {
         receivedData = data;
     } else {
@@ -72,7 +62,6 @@
  
 - (void)connectionDidFinishLoading:(CPURLConnection)aConnection
 {
-  console.log('search3 ' + receivedData);
     var result = nil;
     
     try {
@@ -82,7 +71,6 @@
     }
     
     if (result) {
-      console.log('search4');
         var images = [GoogleImage imagesFromJSONObjects:result]
 console.log(images);
         if (images) {

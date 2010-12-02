@@ -47,8 +47,6 @@
     
     //Create the ImagesController
     imagesController = [[ImagesController alloc] init];
-    //Load example data
-    [imagesController loadExampleImages];
     
     /* ------------ Images --------------- */
     imageListView = [[ImageListView alloc] initWithFrame:CGRectMake(0.0, 0.0, 250.0, 400.0)];
